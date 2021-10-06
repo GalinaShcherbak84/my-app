@@ -20,7 +20,7 @@ const Form=(props)=>{
     }
     
         return(
-            <div>
+            <div className="form">
                <form onSubmit={handleSubmit}>
                    <input type="text" value={value} placeholder="Aggiungi todo" onChange={onChangeText}/>
                </form>
