@@ -39,6 +39,7 @@ const App =()=>{
   return(
     <div className="app">
         <div className="todo-list">
+          <h1>Todos</h1>
           {todos.map((item, index)=>(
             <Todo key={index} todo={item} index={index} completaTodo={completaTodo} cancTodo = {cancTodo}/>
           ))}
