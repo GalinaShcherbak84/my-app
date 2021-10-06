@@ -16,7 +16,7 @@ const App =()=>{
         completato:false
       },
       {
-        name: 'Lavare la maccina',
+        name: 'Lavare la macchina',
         completato:false
       },
     ]
